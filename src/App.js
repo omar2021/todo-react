@@ -6,6 +6,7 @@ import TodoList from './components/TodoList';
 function App() {
   const [inputText, setInputText] = useState("");
   const [todos, setTodos] = useState([]);
+  //need to filter items
   return (
     <div className="App">
       <header>

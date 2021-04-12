@@ -34,7 +34,7 @@ form button {
   transition: all 0.3s ease;
 }
 form button:hover {
-  background: #405bf4;
+  background: #2b43ce;
   color: white;
 }
 .todo-container {
@@ -75,7 +75,7 @@ form button:hover {
   font-size: 1rem;
 }
 .complete-btn {
-  background: rgb(11, 212, 162);
+  background: rgb(58, 215, 5);
 }
 .todo-item {
   padding: 0rem 0.5rem;
@@ -93,7 +93,7 @@ form button:hover {
 
 .completed {
   text-decoration: line-through;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 /*CUSTOM SELECTOR */
