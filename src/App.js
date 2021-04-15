@@ -7,6 +7,7 @@ function App() {
   const [inputText, setInputText] = useState("");
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState("all");
+  const [filteredTodos, setFilterTodos] = useState([]);
   //need to filter items
   return (
     <div className="App">
